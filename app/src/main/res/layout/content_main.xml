@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etValue1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Teks"/>
+            <Button
+                android:layout_weight="2"
+                android:id="@+id/btnSimpan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etValue2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Teks"/>
+            <Button
+                android:layout_weight="2"
+                android:id="@+id/btnSimpan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etValue3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Teks"/>
+            <Button
+                android:layout_weight="2"
+                android:id="@+id/btnSimpan3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/etValue4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Masukkan Nomor"/>
+            <Button
+                android:layout_weight="2"
+                android:id="@+id/btnSimpan4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+            <RadioGroup
+                android:id="@+id/rgBoolean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/rbTrue"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TRUE"/>
+                <RadioButton
+                    android:id="@+id/rbFalse"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FALSE"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
